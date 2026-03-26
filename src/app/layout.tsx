@@ -176,6 +176,7 @@ export default function RootLayout({
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1e40af" />
         <meta name="msapplication-TileColor" content="#1e40af" />
         <meta name="theme-color" content="#ffffff" />
+        <meta name="monetag" content="62870bbb898700bd4fe4dd550541a419" />
       </head>
       <body className={inter.className}>
         <PerformanceOptimizer />
