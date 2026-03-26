@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import PerformanceOptimizer from '../components/PerformanceOptimizer'
 import WhatsAppButton from '../components/WhatsAppButton'
+import AnnouncementBar from '../components/AnnouncementBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -180,6 +181,7 @@ export default function RootLayout({
         <PerformanceOptimizer />
         {children}
         <WhatsAppButton />
+        <AnnouncementBar />
       </body>
     </html>
   )

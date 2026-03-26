@@ -8,6 +8,7 @@ import RayDesignLogo from '../components/RayDesignLogo';
 import BackgroundImage from '../components/BackgroundImage';
 
 import AnimatedBackground from '../components/AnimatedBackground';
+import AdBanner from '../components/AdBanner';
 
 // Hero Illustration Component
 const HeroIllustration = () => (
@@ -2715,6 +2716,8 @@ const RayDesignWebsite = () => {
         </div>
         </header>
       </BackgroundImage>
+
+      <AdBanner />
 
       {/* Services Section */}
       <BackgroundImage
